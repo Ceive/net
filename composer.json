@@ -1,0 +1,20 @@
+{
+    "name": "ceive/net",
+    "description": "lib for net interaction",
+    "type": "library",
+    "license": "Apache 2.0",
+    "minimum-stability": "dev",
+    "require": {
+	  "ceive/value": "dev-master"
+	},
+    "autoload" : {
+	  "psr-4": {
+		"Ceive\\Net\\": "src/"
+	  }
+	},
+  "autoload-dev" : {
+	"psr-4": {
+	  "Ceive\\Net\\Tests": "tests/"
+	}
+  }
+}
