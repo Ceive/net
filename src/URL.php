@@ -252,7 +252,7 @@ namespace Ceive\Net {
 		public static function getURL($url){
 			if($url instanceof URL){
 				return $url;
-			}elseif(is_string($url)){
+			}elseif(is_string($url) || is_array($url)){
 				$object = new URL();
 				$object->setValue($url);
 				return $object;
