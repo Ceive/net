@@ -293,7 +293,9 @@ namespace Ceive\Net {
 			if(!$host){
 				throw new \LogicException('URL must have hostname(ip or domain address)');
 			}
-			$value[self::V_QUERY] = self::parseParams($value[self::V_QUERY]);
+			if(is_string($value[self::V_QUERY])){
+				$value[self::V_QUERY] = self::parseParams($value[self::V_QUERY]);
+			}
 		}
 
 		/**
