@@ -14,7 +14,7 @@
 	},
   "autoload-dev" : {
 	"psr-4": {
-	  "Ceive\\Net\\Tests": "tests/"
+	  "Ceive\\Net\\Tests\\": "tests/"
 	}
   }
 }
