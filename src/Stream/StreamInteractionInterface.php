@@ -11,7 +11,7 @@ namespace Ceive\Net\Stream {
 
 	/**
 	 * Interface StreamInteractionInterface
-	 * @package Ceive\Util\Communication\Connection
+	 * @package Ceive\Net\Connection
 	 */
 	interface StreamInteractionInterface{
 

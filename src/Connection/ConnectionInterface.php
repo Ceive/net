@@ -11,7 +11,7 @@ namespace Ceive\Net\Connection {
 
 	/**
 	 * Interface ConnectionInterface
-	 * @package Ceive\Util\Communication
+	 * @package Ceive\Net
 	 */
 	interface ConnectionInterface{
 

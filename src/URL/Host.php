@@ -13,7 +13,7 @@ namespace Ceive\Net\URL {
 	
 	/**
 	 * Class Address
-	 * @package Ceive\Util\Communication
+	 * @package Ceive\Net
 	 *
 	 * IP or DomainName
 	 *

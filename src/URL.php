@@ -5,14 +5,14 @@
  * Date: 06.01.2016
  * Time: 20:10
  */
-namespace Ceive\Util\Communication {
+namespace Ceive\Net {
 	
 	use Ceive\Net\URL\Host\IP;
 	use Ceive\Value\Value;
 	
 	/**
 	 * Class Url
-	 * @package Ceive\Util\Communication
+	 * @package Ceive\Net
 	 */
 	class URL extends Value{
 
